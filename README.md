@@ -1,10 +1,10 @@
 ### GamemodeUI-Mala
 
-### Information
+# Information
 #Change your game mode with a form or a argument
 #Change ton mode de jeu avec un formulaire ou avec des arguments !
 
-### Config
+# Config
 ```yml
 ---
 #ENG: Config for the GamemodeUI-Mala
@@ -28,5 +28,6 @@ survival-button: "§cSurvival"
 creative-button: "§cCreative"
 adventure-button: "§cAdventure"
 spectator-button: "§cSpectator"
+return-button: "§cReturn"
 ...
 ```
