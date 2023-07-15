@@ -1,28 +1,32 @@
-# GamemodeUI-Mala
+### GamemodeUI-Mala
 
-<table>
- <thead>
-   <tr>
-    <th align="left">Titre 1</th>
-    <th align="center">Titre 2</th>
-    <th align="right">Titre 3</th>
- </tr>
-</thead>
-<tbody>
-  <tr>
-   <td align="left">Colonne</td>
-   <td align="center">Colonne</td>
-   <td align="right">Colonne</td>
- </tr>
- <tr>
-  <td align="left">Alignée à</td>
-  <td align="center">Alignée au</td>
-  <td align="right">Alignée à</td>
- </tr>
- <tr>
-  <td align="left">Gauche</td>
-  <td align="center">Centre</td>
-  <td align="right">Droite</td>
- </tr>
-</tbody>
-</table>
+### Information
+#Change your game mode with a form or a argument
+#Change ton mode de jeu avec un formulaire ou avec des arguments !
+
+### Config
+```yml
+---
+#ENG: Config for the GamemodeUI-Mala
+#FRA: Config pout le GamemodeUI-Mala
+
+#Enable / Disable
+#Activation / Désactivation
+enable-plugin: "GamemodeUI-Mala enable"
+disable-plugin: "GamemodeUI-Mala disable
+
+#ENG : When the game mode changes
+#FRA : Quand le mode de jeu change
+set-creative-message: "Set gamemode to creative!"
+set-survival-message: "Set gamemode to survival!"
+set-adventure-message: "Set gamemode to adventure!"
+set-spectator-message: "Set gamemode to spectator!"
+
+#Form
+content: "Choose the game mode!"
+survival-button: "§cSurvival"
+creative-button: "§cCreative"
+adventure-button: "§cAdventure"
+spectator-button: "§cSpectator"
+...
+```
