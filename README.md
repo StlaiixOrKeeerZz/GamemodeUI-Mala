@@ -1,8 +1,7 @@
 ### GamemodeUI-Mala
 
-# Information
-#Change your game mode with a form or a argument
-#Change ton mode de jeu avec un formulaire ou avec des arguments !
+#Change your gamemode with a argument or a ui form!
+#Change ton mode de jeu grâce à des arguments ou a un form !
 
 # Config
 ```yml
